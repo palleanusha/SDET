@@ -7,6 +7,8 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.Vtiger.genericUtil.WebDriverUtil;
 
+import io.netty.util.internal.ThreadLocalRandom;
+
 public class HomePage {
 	public HomePage(WebDriver driver) {
 		this.driver = driver;
@@ -47,11 +49,12 @@ public class HomePage {
 		return signoutlink;
 	}
 
-	public void logoutFromApp1()
+	public void logoutFromApp1() throws InterruptedException
 
 	{
 		WebDriverUtil util = new WebDriverUtil(driver);
 		util.movetoelement(logoutimg);
+		Thread.sleep(2000);
 		signoutlink.click();
 	}
 

@@ -65,7 +65,8 @@ public class BaseClass {
 
 	@AfterMethod
 	(groups={"smoke","sanity"})
-	public void logoutFromApp() {
+	public void logoutFromApp() throws  InterruptedException   
+	{
 		HomePage oh = new HomePage(driver);
 		oh.logoutFromApp1();
 	}

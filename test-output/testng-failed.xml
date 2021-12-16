@@ -1,19 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
     <classes>
-      <class name="com.Vtiger.TC.TC003_Createorganisation">
+      <class name="com.Vtiger.TC.TC_002_CreateOrganisationdropdowntest">
         <methods>
-          <include name="createContacts"/>
-          <include name="openBrowser"/>
           <include name="connectDatabase"/>
+          <include name="createOrganisationDropdown"/>
           <include name="logoutFromApp"/>
           <include name="tearDown"/>
           <include name="disconnectfromDb"/>
           <include name="logintoapp"/>
         </methods>
-      </class> <!-- com.Vtiger.TC.TC003_Createorganisation -->
+      </class> <!-- com.Vtiger.TC.TC_002_CreateOrganisationdropdowntest -->
+      <class name="com.Vtiger.TC.TC001_Createorganisationtest">
+        <methods>
+          <include name="connectDatabase"/>
+          <include name="logoutFromApp"/>
+          <include name="tearDown"/>
+          <include name="disconnectfromDb"/>
+          <include name="logintoapp"/>
+          <include name="createOrganisationLink"/>
+        </methods>
+      </class> <!-- com.Vtiger.TC.TC001_Createorganisationtest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

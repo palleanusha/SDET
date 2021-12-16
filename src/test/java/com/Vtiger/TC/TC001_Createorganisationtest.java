@@ -23,7 +23,7 @@ public class TC001_Createorganisationtest extends BaseClass
 	
 	
 	
-	@Test(groups= "smokeTest")
+	@Test(groups= "smoke")
 	public void createOrganisationLink() throws InterruptedException, IOException
 	{
 		HomePage oh= new HomePage(driver);

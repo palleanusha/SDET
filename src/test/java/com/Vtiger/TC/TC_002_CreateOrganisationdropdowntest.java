@@ -17,7 +17,7 @@ import junit.framework.Assert;
 
 public class TC_002_CreateOrganisationdropdowntest extends BaseClass 
 {
-@Test(groups= {"smokeTest"})
+@Test(groups= "smoke")
 	public void createOrganisationDropdown() throws IOException, InterruptedException
 	{
 		//CLICKING ON ORGANISATION LINK
