@@ -9,40 +9,56 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">TestRunner2</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">57,636</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">TestRunner1</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">65,942</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">3</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num">123,578</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">1</td><td class="num attn">3</td><td class="num">0</td><td class="num">0</td><td class="num">42,922</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">TestRunner2 &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.Vtiger.TC.TC_002_CreateOrganisationdropdowntest</td><td><a href="#m0">tearDown</a></td><td rowspan="1">1639634104784</td><td rowspan="1">5166</td></tr><tr><th colspan="4">TestRunner2 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.Vtiger.TC.TC_002_CreateOrganisationdropdowntest</td><td><a href="#m1">createOrganisationDropdown</a></td><td rowspan="1">1639634061420</td><td rowspan="1">26143</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">TestRunner1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.Vtiger.TC.TC001_Createorganisationtest</td><td><a href="#m2">createOrganisationLink</a></td><td rowspan="1">1639634061991</td><td rowspan="1">22126</td></tr><tr class="passedeven"><td><a href="#m3">createorganisationphonenumber</a></td><td rowspan="1">1639634090679</td><td rowspan="1">23084</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.Vtiger.TC.TC001_Createorganisationtest</td><td><a href="#m0">logintoapp</a></td><td rowspan="1">1639648743547</td><td rowspan="1">1</td></tr><tr class="failedodd"><td rowspan="1">com.Vtiger.TC.TC_002_CreateOrganisationdropdowntest</td><td><a href="#m1">logintoapp</a></td><td rowspan="1">1639648743524</td><td rowspan="1">1</td></tr><tr><th colspan="4">Test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="4">com.Vtiger.TC.TC001_Createorganisationtest</td><td><a href="#m2">logintoapp</a></td><td rowspan="1">1639648743554</td><td rowspan="1">-1639648743554</td></tr><tr class="skippedeven"><td><a href="#m3">logoutFromApp</a></td><td rowspan="2">1639648743556</td><td rowspan="2">-1639648743556</td></tr><tr class="skippedeven"><td><a href="#m4">logoutFromApp</a></td></tr><tr class="skippedeven"><td><a href="#m5">tearDown</a></td><td rowspan="1">1639648743558</td><td rowspan="1">-1639648743558</td></tr><tr class="skippedodd"><td rowspan="2">com.Vtiger.TC.TC_002_CreateOrganisationdropdowntest</td><td><a href="#m6">logoutFromApp</a></td><td rowspan="1">1639648743545</td><td rowspan="1">-1639648743545</td></tr><tr class="skippedodd"><td><a href="#m7">tearDown</a></td><td rowspan="1">1639648743546</td><td rowspan="1">-1639648743546</td></tr><tr><th colspan="4">Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="2">com.Vtiger.TC.TC001_Createorganisationtest</td><td><a href="#m8">createOrganisationLink</a></td><td rowspan="1">1639648743549</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m9">createorganisationphonenumber</a></td><td rowspan="1">1639648743554</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="1">com.Vtiger.TC.TC_002_CreateOrganisationdropdowntest</td><td><a href="#m10">createOrganisationDropdown</a></td><td rowspan="1">1639648743542</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.Vtiger.TC.TC003_Createorganisation</td><td><a href="#m11">createContacts</a></td><td rowspan="1">1639648709243</td><td rowspan="1">28826</td></tr></tbody>
 </table>
-<h2>TestRunner2</h2><h3 id="m0">com.Vtiger.TC.TC_002_CreateOrganisationdropdowntest#tearDown</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=96.0.4664.110)
-Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
-System info: host: &apos;LAPTOP-QDOHP8LB&apos;, ip: &apos;192.168.111.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1fb994e62b4088b9dd02dce3313dc108, close {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\91934\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50324}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50324/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1fb994e62b4088b9dd02dce3313dc108
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:614)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
-	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:444)
-	at com.Vtiger.genericUtil.BaseClass.tearDown(BaseClass.java:77)
+<h2>Test</h2><h3 id="m0">com.Vtiger.TC.TC001_Createorganisationtest#logintoapp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.sendKeys(Unknown Source)
+	at com.Vtiger.POMclasses.LoginPage.logintoapp(LoginPage.java:52)
+	at com.Vtiger.genericUtil.BaseClass.logintoapp(BaseClass.java:63)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:831)
-... Removed 21 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.Vtiger.TC.TC_002_CreateOrganisationdropdowntest#createOrganisationDropdown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>TestRunner1</h2><h3 id="m2">com.Vtiger.TC.TC001_Createorganisationtest#createOrganisationLink</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.Vtiger.TC.TC001_Createorganisationtest#createorganisationphonenumber</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.Vtiger.TC.TC_002_CreateOrganisationdropdowntest#logintoapp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.sendKeys(Unknown Source)
+	at com.Vtiger.POMclasses.LoginPage.logintoapp(LoginPage.java:52)
+	at com.Vtiger.genericUtil.BaseClass.logintoapp(BaseClass.java:63)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.Vtiger.TC.TC001_Createorganisationtest#logintoapp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.Vtiger.TC.TC001_Createorganisationtest#logoutFromApp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.Vtiger.TC.TC001_Createorganisationtest#logoutFromApp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.Vtiger.TC.TC001_Createorganisationtest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.Vtiger.TC.TC_002_CreateOrganisationdropdowntest#logoutFromApp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.Vtiger.TC.TC_002_CreateOrganisationdropdowntest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.Vtiger.TC.TC001_Createorganisationtest#createOrganisationLink</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.sendKeys(Unknown Source)
+	at com.Vtiger.POMclasses.LoginPage.logintoapp(LoginPage.java:52)
+	at com.Vtiger.genericUtil.BaseClass.logintoapp(BaseClass.java:63)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.Vtiger.TC.TC001_Createorganisationtest#createorganisationphonenumber</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.sendKeys(Unknown Source)
+	at com.Vtiger.POMclasses.LoginPage.logintoapp(LoginPage.java:52)
+	at com.Vtiger.genericUtil.BaseClass.logintoapp(BaseClass.java:63)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.Vtiger.TC.TC_002_CreateOrganisationdropdowntest#createOrganisationDropdown</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.sendKeys(Unknown Source)
+	at com.Vtiger.POMclasses.LoginPage.logintoapp(LoginPage.java:52)
+	at com.Vtiger.genericUtil.BaseClass.logintoapp(BaseClass.java:63)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.Vtiger.TC.TC003_Createorganisation#createContacts</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

@@ -38,8 +38,11 @@ public class BaseClass {
 	@BeforeTest
 	// public void openBrowser() throws Throwable
 	public void openBrowser() throws Throwable {
-		String browser = FileUtil.objForFileUtil().readDataFromPropfile("browser");
+		//String browser = FileUtil.objForFileUtil().readDataFromPropfile("browser");
+		String browser=System.getProperty("BROWSER");
+		System.out.println("Chrome");
 		if (browser.equalsIgnoreCase("chrome")) {
+			
 			driver = new ChromeDriver();
 		} else if (browser.equalsIgnoreCase("firefox")) {
 			driver = new FirefoxDriver();
@@ -49,6 +52,7 @@ public class BaseClass {
 		driver.get(FileUtil.objForFileUtil().readDataFromPropfile("url"));
 		// maximize the browser
 		WebDriverUtil util = new WebDriverUtil(driver);
+	
 		util.maximisewindow(driver);
 		util.refresh();
 

@@ -1,73 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="6" total="10" passed="1" failed="0" skipped="3">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-16T11:24:12 IST" name="Suite" finished-at="2021-12-16T11:25:18 IST" duration-ms="65942">
+  <suite started-at="2021-12-16T15:28:20 IST" name="Suite" finished-at="2021-12-16T15:29:03 IST" duration-ms="42922">
     <groups>
       <group name="smoke">
-        <method signature="TC001_Createorganisationtest.createOrganisationLink()[pri:0, instance:com.Vtiger.TC.TC001_Createorganisationtest@3012646b]" name="createOrganisationLink" class="com.Vtiger.TC.TC001_Createorganisationtest"/>
-        <method signature="TC_002_CreateOrganisationdropdowntest.createOrganisationDropdown()[pri:0, instance:com.Vtiger.TC.TC_002_CreateOrganisationdropdowntest@76b1e9b8]" name="createOrganisationDropdown" class="com.Vtiger.TC.TC_002_CreateOrganisationdropdowntest"/>
+        <method signature="TC001_Createorganisationtest.createOrganisationLink()[pri:0, instance:com.Vtiger.TC.TC001_Createorganisationtest@229c6181]" name="createOrganisationLink" class="com.Vtiger.TC.TC001_Createorganisationtest"/>
+        <method signature="TC003_Createorganisation.createContacts()[pri:0, instance:com.Vtiger.TC.TC003_Createorganisation@52719fb6]" name="createContacts" class="com.Vtiger.TC.TC003_Createorganisation"/>
+        <method signature="TC_002_CreateOrganisationdropdowntest.createOrganisationDropdown()[pri:0, instance:com.Vtiger.TC.TC_002_CreateOrganisationdropdowntest@65c7a252]" name="createOrganisationDropdown" class="com.Vtiger.TC.TC_002_CreateOrganisationdropdowntest"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2021-12-16T11:24:12 IST" name="TestRunner2" finished-at="2021-12-16T11:25:09 IST" duration-ms="57636">
+    <test started-at="2021-12-16T15:28:20 IST" name="Test" finished-at="2021-12-16T15:29:03 IST" duration-ms="42922">
       <class name="com.Vtiger.TC.TC_002_CreateOrganisationdropdowntest">
-        <test-method is-config="true" signature="connectDatabase()[pri:0, instance:com.Vtiger.TC.TC_002_CreateOrganisationdropdowntest@76b1e9b8]" started-at="2021-12-16T11:24:12 IST" name="connectDatabase" finished-at="2021-12-16T11:24:12 IST" duration-ms="14" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- connectDatabase -->
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.Vtiger.TC.TC_002_CreateOrganisationdropdowntest@76b1e9b8]" started-at="2021-12-16T11:24:12 IST" name="openBrowser" finished-at="2021-12-16T11:24:17 IST" duration-ms="5404" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="logintoapp()[pri:0, instance:com.Vtiger.TC.TC_002_CreateOrganisationdropdowntest@76b1e9b8]" started-at="2021-12-16T11:24:17 IST" name="logintoapp" finished-at="2021-12-16T11:24:21 IST" duration-ms="3693" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logintoapp -->
-        <test-method signature="createOrganisationDropdown()[pri:0, instance:com.Vtiger.TC.TC_002_CreateOrganisationdropdowntest@76b1e9b8]" started-at="2021-12-16T11:24:21 IST" name="createOrganisationDropdown" finished-at="2021-12-16T11:24:47 IST" duration-ms="26143" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createOrganisationDropdown -->
-        <test-method is-config="true" signature="logoutFromApp()[pri:0, instance:com.Vtiger.TC.TC_002_CreateOrganisationdropdowntest@76b1e9b8]" started-at="2021-12-16T11:24:47 IST" name="logoutFromApp" finished-at="2021-12-16T11:25:04 IST" duration-ms="17216" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoutFromApp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Vtiger.TC.TC_002_CreateOrganisationdropdowntest@76b1e9b8]" started-at="2021-12-16T11:25:04 IST" name="tearDown" finished-at="2021-12-16T11:25:09 IST" duration-ms="5166" status="FAIL">
-          <exception class="org.openqa.selenium.WebDriverException">
+        <test-method is-config="true" signature="logintoapp()[pri:0, instance:com.Vtiger.TC.TC_002_CreateOrganisationdropdowntest@65c7a252]" started-at="2021-12-16T15:29:03 IST" name="logintoapp" finished-at="2021-12-16T15:29:03 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.NullPointerException">
             <message>
-              <![CDATA[chrome not reachable
-  (Session info: chrome=96.0.4664.110)
-Build info: version: '4.0.0', revision: '3a21814679'
-System info: host: 'LAPTOP-QDOHP8LB', ip: '192.168.111.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1fb994e62b4088b9dd02dce3313dc108, close {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\91934\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50324}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50324/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1fb994e62b4088b9dd02dce3313dc108]]>
+              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=96.0.4664.110)
-Build info: version: '4.0.0', revision: '3a21814679'
-System info: host: 'LAPTOP-QDOHP8LB', ip: '192.168.111.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1fb994e62b4088b9dd02dce3313dc108, close {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\91934\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50324}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50324/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1fb994e62b4088b9dd02dce3313dc108
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:614)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
-at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:444)
-at com.Vtiger.genericUtil.BaseClass.tearDown(BaseClass.java:77)
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy21.sendKeys(Unknown Source)
+at com.Vtiger.POMclasses.LoginPage.logintoapp(LoginPage.java:52)
+at com.Vtiger.genericUtil.BaseClass.logintoapp(BaseClass.java:63)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -76,66 +32,293 @@ at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelpe
 at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
 at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
 at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:217)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:130)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
 at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 at org.testng.TestRunner.privateRun(TestRunner.java:794)
 at org.testng.TestRunner.run(TestRunner.java:596)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-at java.base/java.lang.Thread.run(Thread.java:831)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoapp -->
+        <test-method signature="createOrganisationDropdown()[pri:0, instance:com.Vtiger.TC.TC_002_CreateOrganisationdropdowntest@65c7a252]" started-at="2021-12-16T15:29:03 IST" name="createOrganisationDropdown" finished-at="2021-12-16T15:29:03 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy21.sendKeys(Unknown Source)
+at com.Vtiger.POMclasses.LoginPage.logintoapp(LoginPage.java:52)
+at com.Vtiger.genericUtil.BaseClass.logintoapp(BaseClass.java:63)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrganisationDropdown -->
+        <test-method is-config="true" signature="logoutFromApp()[pri:0, instance:com.Vtiger.TC.TC_002_CreateOrganisationdropdowntest@65c7a252]" started-at="2021-12-16T15:29:03 IST" name="logoutFromApp" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1639648743545" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Vtiger.TC.TC_002_CreateOrganisationdropdowntest@65c7a252]" started-at="2021-12-16T15:29:03 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1639648743546" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="disconnectfromDb()[pri:0, instance:com.Vtiger.TC.TC_002_CreateOrganisationdropdowntest@76b1e9b8]" started-at="2021-12-16T11:25:18 IST" name="disconnectfromDb" finished-at="2021-12-16T11:25:18 IST" duration-ms="0" status="PASS">
+      </class> <!-- com.Vtiger.TC.TC_002_CreateOrganisationdropdowntest -->
+      <class name="com.Vtiger.TC.TC003_Createorganisation">
+        <test-method is-config="true" signature="connectDatabase()[pri:0, instance:com.Vtiger.TC.TC003_Createorganisation@52719fb6]" started-at="2021-12-16T15:28:20 IST" name="connectDatabase" finished-at="2021-12-16T15:28:20 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- disconnectfromDb -->
-      </class> <!-- com.Vtiger.TC.TC_002_CreateOrganisationdropdowntest -->
-    </test> <!-- TestRunner2 -->
-    <test started-at="2021-12-16T11:24:12 IST" name="TestRunner1" finished-at="2021-12-16T11:25:18 IST" duration-ms="65942">
-      <class name="com.Vtiger.TC.TC001_Createorganisationtest">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.Vtiger.TC.TC001_Createorganisationtest@3012646b]" started-at="2021-12-16T11:24:12 IST" name="openBrowser" finished-at="2021-12-16T11:24:17 IST" duration-ms="5089" status="PASS">
+        </test-method> <!-- connectDatabase -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.Vtiger.TC.TC003_Createorganisation@52719fb6]" started-at="2021-12-16T15:28:20 IST" name="openBrowser" finished-at="2021-12-16T15:28:25 IST" duration-ms="5201" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="logintoapp()[pri:0, instance:com.Vtiger.TC.TC001_Createorganisationtest@3012646b]" started-at="2021-12-16T11:24:17 IST" name="logintoapp" finished-at="2021-12-16T11:24:21 IST" duration-ms="4561" status="PASS">
+        <test-method is-config="true" signature="logintoapp()[pri:0, instance:com.Vtiger.TC.TC003_Createorganisation@52719fb6]" started-at="2021-12-16T15:28:25 IST" name="logintoapp" finished-at="2021-12-16T15:28:29 IST" duration-ms="3383" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintoapp -->
-        <test-method signature="createOrganisationLink()[pri:0, instance:com.Vtiger.TC.TC001_Createorganisationtest@3012646b]" started-at="2021-12-16T11:24:21 IST" name="createOrganisationLink" finished-at="2021-12-16T11:24:44 IST" duration-ms="22126" status="PASS">
+        <test-method signature="createContacts()[pri:0, instance:com.Vtiger.TC.TC003_Createorganisation@52719fb6]" started-at="2021-12-16T15:28:29 IST" name="createContacts" finished-at="2021-12-16T15:28:58 IST" duration-ms="28826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContacts -->
+        <test-method is-config="true" signature="logoutFromApp()[pri:0, instance:com.Vtiger.TC.TC003_Createorganisation@52719fb6]" started-at="2021-12-16T15:28:58 IST" name="logoutFromApp" finished-at="2021-12-16T15:29:02 IST" duration-ms="3946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Vtiger.TC.TC003_Createorganisation@52719fb6]" started-at="2021-12-16T15:29:02 IST" name="tearDown" finished-at="2021-12-16T15:29:03 IST" duration-ms="1502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="disconnectfromDb()[pri:0, instance:com.Vtiger.TC.TC003_Createorganisation@52719fb6]" started-at="2021-12-16T15:29:03 IST" name="disconnectfromDb" finished-at="2021-12-16T15:29:03 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- disconnectfromDb -->
+      </class> <!-- com.Vtiger.TC.TC003_Createorganisation -->
+      <class name="com.Vtiger.TC.TC001_Createorganisationtest">
+        <test-method is-config="true" signature="logintoapp()[pri:0, instance:com.Vtiger.TC.TC001_Createorganisationtest@229c6181]" started-at="2021-12-16T15:29:03 IST" name="logintoapp" finished-at="2021-12-16T15:29:03 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy21.sendKeys(Unknown Source)
+at com.Vtiger.POMclasses.LoginPage.logintoapp(LoginPage.java:52)
+at com.Vtiger.genericUtil.BaseClass.logintoapp(BaseClass.java:63)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoapp -->
+        <test-method signature="createOrganisationLink()[pri:0, instance:com.Vtiger.TC.TC001_Createorganisationtest@229c6181]" started-at="2021-12-16T15:29:03 IST" name="createOrganisationLink" finished-at="2021-12-16T15:29:03 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy21.sendKeys(Unknown Source)
+at com.Vtiger.POMclasses.LoginPage.logintoapp(LoginPage.java:52)
+at com.Vtiger.genericUtil.BaseClass.logintoapp(BaseClass.java:63)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createOrganisationLink -->
-        <test-method is-config="true" signature="logoutFromApp()[pri:0, instance:com.Vtiger.TC.TC001_Createorganisationtest@3012646b]" started-at="2021-12-16T11:24:44 IST" name="logoutFromApp" finished-at="2021-12-16T11:24:48 IST" duration-ms="4443" status="PASS">
+        <test-method is-config="true" signature="logoutFromApp()[pri:0, instance:com.Vtiger.TC.TC001_Createorganisationtest@229c6181]" started-at="2021-12-16T15:29:03 IST" name="logoutFromApp" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1639648743552" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutFromApp -->
-        <test-method is-config="true" signature="logintoapp()[pri:0, instance:com.Vtiger.TC.TC001_Createorganisationtest@3012646b]" started-at="2021-12-16T11:24:48 IST" name="logintoapp" finished-at="2021-12-16T11:24:50 IST" duration-ms="2115" status="PASS">
+        <test-method is-config="true" signature="logintoapp()[pri:0, instance:com.Vtiger.TC.TC001_Createorganisationtest@229c6181]" started-at="2021-12-16T15:29:03 IST" name="logintoapp" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1639648743554" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintoapp -->
-        <test-method signature="createorganisationphonenumber()[pri:0, instance:com.Vtiger.TC.TC001_Createorganisationtest@3012646b]" started-at="2021-12-16T11:24:50 IST" name="createorganisationphonenumber" finished-at="2021-12-16T11:25:13 IST" duration-ms="23084" status="PASS">
+        <test-method signature="createorganisationphonenumber()[pri:0, instance:com.Vtiger.TC.TC001_Createorganisationtest@229c6181]" started-at="2021-12-16T15:29:03 IST" name="createorganisationphonenumber" finished-at="2021-12-16T15:29:03 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy21.sendKeys(Unknown Source)
+at com.Vtiger.POMclasses.LoginPage.logintoapp(LoginPage.java:52)
+at com.Vtiger.genericUtil.BaseClass.logintoapp(BaseClass.java:63)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createorganisationphonenumber -->
-        <test-method is-config="true" signature="logoutFromApp()[pri:0, instance:com.Vtiger.TC.TC001_Createorganisationtest@3012646b]" started-at="2021-12-16T11:25:13 IST" name="logoutFromApp" finished-at="2021-12-16T11:25:16 IST" duration-ms="3039" status="PASS">
+        <test-method is-config="true" signature="logoutFromApp()[pri:0, instance:com.Vtiger.TC.TC001_Createorganisationtest@229c6181]" started-at="2021-12-16T15:29:03 IST" name="logoutFromApp" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1639648743556" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutFromApp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Vtiger.TC.TC001_Createorganisationtest@3012646b]" started-at="2021-12-16T11:25:16 IST" name="tearDown" finished-at="2021-12-16T11:25:18 IST" duration-ms="1451" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Vtiger.TC.TC001_Createorganisationtest@229c6181]" started-at="2021-12-16T15:29:03 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1639648743558" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.Vtiger.TC.TC001_Createorganisationtest -->
-    </test> <!-- TestRunner1 -->
+    </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
